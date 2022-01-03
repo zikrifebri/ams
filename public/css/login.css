@@ -1,0 +1,117 @@
+body {
+    background-image: url('../fileupload/pusri.jpg');
+    /* background: -webkit-linear-gradient(bottom, #2dbd6e, #a6f77b); */
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  label {
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+    
+  }
+
+  .transparent{
+    background: rgba(128, 128, 128, 0.2);
+  }
+
+  .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 0px;
+      
+  }
+  .card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 400px;
+    margin: 145.2px auto;
+    width: 650px;
+  }
+
+  .card-left {
+    background-color: grey;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: center; */
+    color: #fff;
+    padding-top: 110px;
+    padding-bottom: 95px;
+  }
+
+  p>img {
+    width: 110px;
+    margin-left: 38px;
+  }
+
+  #card-content {
+    padding: 12px 44px;
+  }
+  .card-header {
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 4px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+  }
+  .underline-title {
+    background: -webkit-linear-gradient(right, #605dff, #2f2dbd);
+    height: 2px;
+    margin: -1.1rem auto 0 auto;
+    width: 89px;
+  }
+  .form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    margin-left: 20px; 
+    right: 50%;
+    margin-right: 20px; 
+    
+  }
+  .form-border {
+    background: -webkit-linear-gradient(right, #605dff, #2f2dbd);
+    height: 1px;
+    width: 215%;
+  }
+  .form-content {
+    background: #fbfbfb;
+    border: 0px solid transparent;
+    outline: none;
+    width: 215%;
+    padding: 1em .5em .5em;
+    padding-left: 1em;
+    padding-top: 20px;
+    margin: 4px auto;
+    
+  }
+
+  #remember_me{
+    margin-top: 30px;
+  }
+
+  .btn {
+    background: -webkit-linear-gradient(right, #605dff, #2f2dbd);
+    border: none;
+    border-radius: 21px;
+    box-shadow: 0px 1px 8px #252396;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin-left: 100px; 
+    margin-top: 35px;
+    transition: 0.25s;
+    width: 153px;
+  }
+  .btn:hover {
+    box-shadow: 0px 1px 18px #252396;
+  }
+ 
+
+
+  
